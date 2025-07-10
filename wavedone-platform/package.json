@@ -1,0 +1,37 @@
+{
+  "name": "wavedone-platform-backend",
+  "version": "1.0.0",
+  "description": "Backend for Wavedone Digital Solutions Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "NODE_ENV=test jest --testTimeout=10000 --detectOpenHandles"
+  },
+  "keywords": [
+    "ecommerce",
+    "digital-products",
+    "api",
+    "wavedone"
+  ],
+  "author": "Wavedone Digital Solutions Ltd",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^30.0.4",
+    "supertest": "^7.1.3"
+  }
+}
